@@ -1,0 +1,55 @@
+{
+  "stage": "0.8",
+  "lock_status": "LOCKED_BEFORE_EXTERNAL_OUTCOME_ANALYSIS",
+  "source_project": "PRJNA771396",
+  "external_outcome_data_read": false,
+  "taxonomic_level": "genus",
+  "domain_filter": "NCBI Taxonomy lineage rooted in Bacteria",
+  "matched_patients": [
+    "case_3",
+    "case_6",
+    "case_7",
+    "case_8",
+    "case_10",
+    "case_11",
+    "case_12",
+    "case_13",
+    "case_14",
+    "case_15",
+    "case_16",
+    "case_19",
+    "case_22",
+    "case_23",
+    "case_25",
+    "case_26",
+    "case_38"
+  ],
+  "minimum_matched_codetection_patients": 2,
+  "primary_signature_excludes_stage06_kitome": true,
+  "primary_signature": [
+    "Borreliella",
+    "Escherichia",
+    "Staphylococcus",
+    "Enterococcus",
+    "Klebsiella"
+  ],
+  "sensitivity_signature": [
+    "Borreliella",
+    "Escherichia",
+    "Staphylococcus",
+    "Enterococcus",
+    "Klebsiella",
+    "Ralstonia",
+    "Acinetobacter",
+    "Burkholderia",
+    "Pseudomonas",
+    "Sphingomonas"
+  ],
+  "input_sha256": {
+    "00_admin/stage06_config.json": "4f6f1385a4acb583f379853d4da0e6909ed3dec9ea6965246b18ce99120107ce",
+    "06_results/stage06_PRJNA771396_species_evidence.tsv.gz": "e3c883231bda4391113caa085d43576eb2a9daf32b933369db03ec79b96fb251",
+    "01_metadata/stage05_sample_manifest.tsv": "91fbc83911cb5418d9667425752361ec9600a40371870b5cbc877fd5b3f371d5",
+    "work/metadata/stage08_signature_taxonomy.xml": "adb07fc67784ee6f30cdde92a7281d15515c61a91f4acf8d9b8d943215dde654"
+  },
+  "output_sha256": "0a10ecee753b8c31f00b216d2f457c6795abf5c09abee75714f665f09974b0af"
+}

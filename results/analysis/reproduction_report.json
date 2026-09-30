@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "numeric_tolerance": {
+    "default_absolute": 1e-08,
+    "default_relative": 1e-09,
+    "firth_optimizer_absolute": 1e-06,
+    "firth_optimizer_relative": 1e-07
+  },
+  "compared_result_tables": [
+    "primary_effects.tsv",
+    "patient_signature_components.tsv",
+    "leave_one_patient_out.tsv",
+    "contamination_sensitivity.tsv",
+    "covariate_support.tsv",
+    "primary_component_details.tsv",
+    "sensitivity_with_ci.tsv",
+    "alternative_compositional_sensitivity.tsv",
+    "clinical_baseline_by_ards.tsv",
+    "clinical_missingness.tsv",
+    "firth_logistic_models.tsv",
+    "patient_outcome_timing.tsv",
+    "paired_scores.tsv",
+    "paired_results.tsv",
+    "genus_pair_concordance.tsv",
+    "paired_correlation_ci.tsv",
+    "paired_genus_effects.tsv",
+    "host_module_dictionary.tsv",
+    "host_module_overlap.tsv"
+  ],
+  "host_tables_checked": [
+    "host_module_results.tsv",
+    "host_module_scores.tsv"
+  ],
+  "primary_result": {
+    "n": 65,
+    "ARDS": 26,
+    "nonARDS": 39,
+    "observed_mean_difference_SD": 0.5947436540143409,
+    "one_sided_permutation_p": 0.009299070092990702
+  },
+  "secondary_seed_sensitivity_p": 0.008799120087991202,
+  "figure_pdf_count": 6,
+  "figure_source_table_count": 16,
+  "problems": []
+}

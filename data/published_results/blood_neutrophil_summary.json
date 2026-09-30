@@ -1,0 +1,92 @@
+{
+  "dataset": "PRJNA428535",
+  "runs": 124,
+  "patients": 62,
+  "all_pairs_primary_support": {
+    "analysis": "all_pairs_ge100",
+    "n_pairs": 62,
+    "spearman_rho": 0.10168723243515486,
+    "pairing_permutation_p": 0.2206779322067793,
+    "neutrophil_minus_blood_mean": 0.9388296126693997,
+    "paired_bootstrap_CI_low": 0.6264284134742208,
+    "paired_bootstrap_CI_high": 1.2387119729330855,
+    "signflip_p_two_sided": 9.999000099990002e-05
+  },
+  "sensitivities": [
+    {
+      "analysis": "pairs_ge1000_sensitivity",
+      "n_pairs": 62,
+      "spearman_rho": 0.10168723243515486,
+      "pairing_permutation_p": 0.21127887211278873,
+      "neutrophil_minus_blood_mean": 0.9388296126693997,
+      "paired_bootstrap_CI_low": 0.6386732078440326,
+      "paired_bootstrap_CI_high": 1.2340119831177463,
+      "signflip_p_two_sided": 9.999000099990002e-05
+    },
+    {
+      "analysis": "omit_Staphylococcus_fixed_weight",
+      "n_pairs": 62,
+      "spearman_rho": 0.04673885671115587,
+      "pairing_permutation_p": 0.3514648535146485,
+      "neutrophil_minus_blood_mean": 1.0091713930698378,
+      "paired_bootstrap_CI_low": 0.7214710659918463,
+      "paired_bootstrap_CI_high": 1.2902099033306307,
+      "signflip_p_two_sided": 9.999000099990002e-05
+    }
+  ],
+  "genus_concordance": [
+    {
+      "genus": "Borreliella",
+      "n_pairs": 62,
+      "blood_detected": 0,
+      "neutrophil_detected": 0,
+      "both_detected": 0,
+      "both_absent": 62,
+      "agreement_fraction": 1.0
+    },
+    {
+      "genus": "Escherichia",
+      "n_pairs": 62,
+      "blood_detected": 62,
+      "neutrophil_detected": 62,
+      "both_detected": 62,
+      "both_absent": 0,
+      "agreement_fraction": 1.0
+    },
+    {
+      "genus": "Staphylococcus",
+      "n_pairs": 62,
+      "blood_detected": 22,
+      "neutrophil_detected": 34,
+      "both_detected": 15,
+      "both_absent": 21,
+      "agreement_fraction": 0.5806451612903226
+    },
+    {
+      "genus": "Enterococcus",
+      "n_pairs": 62,
+      "blood_detected": 4,
+      "neutrophil_detected": 24,
+      "both_detected": 2,
+      "both_absent": 36,
+      "agreement_fraction": 0.6129032258064516
+    },
+    {
+      "genus": "Klebsiella",
+      "n_pairs": 62,
+      "blood_detected": 4,
+      "neutrophil_detected": 18,
+      "both_detected": 2,
+      "both_absent": 42,
+      "agreement_fraction": 0.7096774193548387
+    }
+  ],
+  "limitations": [
+    "low-biomass 16S",
+    "no public sequenced blanks",
+    "Ion Torrent V3 amplicon",
+    "cannot establish viability or intracellular carriage or migration direction"
+  ],
+  "role": "within-person cellular-compartment support only",
+  "review": "author-reviewed"
+}

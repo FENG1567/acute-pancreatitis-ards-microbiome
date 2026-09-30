@@ -1,0 +1,9 @@
+variable	available_n	missing_n	missing_pct	analysis_use
+age	65	0	0.0	age/sex/BMI only
+sex	65	0	0.0	age/sex/BMI only
+bmi	65	0	0.0	age/sex/BMI only
+etiology	0	65	100.0	not used; unavailable or cohort-level only
+antibiotic_exposure	0	65	100.0	not used; unavailable or cohort-level only
+ICU_status	0	65	100.0	not used; unavailable or cohort-level only
+time_from_admission	0	65	100.0	not used; unavailable or cohort-level only
+time_from_symptom_onset	65	0	0.0	not used; unavailable or cohort-level only

@@ -1,0 +1,4 @@
+analysis	status	signature_components	reference_components	effect_SD	bootstrap_CI_low	bootstrap_CI_high	two_sided_permutation_p	note
+four_detected_genera_log_geometric_mean_pc0.5	post hoc exploratory sensitivity; not confirmatory	4	0	0.721735099845766	0.247610339750222	1.2014944473734	0.0038996100389961	removes all-zero Borreliella
+four_detected_genera_log_geometric_mean_pc1.0	post hoc exploratory sensitivity; not confirmatory	4	0	0.718820428700243	0.245968684154532	1.1930790435527	0.0043995600439956	pseudocount sensitivity
+four_detected_genera_vs_prevalent_background_aitchison_balance	post hoc exploratory sensitivity; not confirmatory	4	137	0.508119938280654	0.0237290699070752	0.994884645813146	0.0490950904909509	reference genera prevalence >=10%

@@ -1,0 +1,129 @@
+{
+  "primary_score_seed_sensitivity": {
+    "analysis": "primary_five_component_fixed",
+    "role": "permutation-seed sensitivity; not primary analysis",
+    "n": 65,
+    "ARDS": 26,
+    "nonARDS": 39,
+    "effect_SD": 0.594743654014341,
+    "bootstrap_CI_low": 0.11282813822263593,
+    "bootstrap_CI_high": 1.0631029133075116,
+    "one_sided_permutation_p": 0.008799120087991202,
+    "note": "Primary P=0.009299 is reported in the main analysis; P=0.008799 is from a separate sensitivity permutation run and is not a replacement for the primary value."
+  },
+  "leave_klebsiella_out": {
+    "analysis": "leave_out_Klebsiella_fixed_weight",
+    "role": "prespecified fixed-weight component sensitivity",
+    "n": 65,
+    "ARDS": 26,
+    "nonARDS": 39,
+    "effect_SD": 0.32435403777846933,
+    "bootstrap_CI_low": -0.16801476987891809,
+    "bootstrap_CI_high": 0.8175502202021644,
+    "one_sided_permutation_p": 0.0983901609839016,
+    "note": "Sensitivity value is retained as a separate non-primary result."
+  },
+  "alternative_compositional_sensitivities": [
+    {
+      "analysis": "four_detected_genera_log_geometric_mean_pc0.5",
+      "status": "post hoc exploratory sensitivity; not confirmatory",
+      "signature_components": 4,
+      "reference_components": 0,
+      "effect_SD": 0.7217350998457659,
+      "bootstrap_CI_low": 0.2476103397502217,
+      "bootstrap_CI_high": 1.201494447373402,
+      "two_sided_permutation_p": 0.0038996100389961006,
+      "note": "removes all-zero Borreliella"
+    },
+    {
+      "analysis": "four_detected_genera_log_geometric_mean_pc1.0",
+      "status": "post hoc exploratory sensitivity; not confirmatory",
+      "signature_components": 4,
+      "reference_components": 0,
+      "effect_SD": 0.7188204287002427,
+      "bootstrap_CI_low": 0.24596868415453185,
+      "bootstrap_CI_high": 1.193079043552697,
+      "two_sided_permutation_p": 0.004399560043995601,
+      "note": "pseudocount sensitivity"
+    },
+    {
+      "analysis": "four_detected_genera_vs_prevalent_background_aitchison_balance",
+      "status": "post hoc exploratory sensitivity; not confirmatory",
+      "signature_components": 4,
+      "reference_components": 137,
+      "effect_SD": 0.5081199382806545,
+      "bootstrap_CI_low": 0.023729069907075264,
+      "bootstrap_CI_high": 0.9948846458131458,
+      "two_sided_permutation_p": 0.049095090490950906,
+      "note": "reference genera prevalence >=10%"
+    }
+  ],
+  "firth_models": [
+    {
+      "model": "unadjusted_firth",
+      "n": 65,
+      "events": 26,
+      "parameters_including_intercept": 2,
+      "events_per_nonintercept_parameter": 26.0,
+      "term": "signature_per_1SD",
+      "beta_firth": 0.6073081776107767,
+      "OR_firth": 1.8354839461558399,
+      "profile_CI_low": 1.1011827528762679,
+      "profile_CI_high": 3.228968007036874,
+      "penalized_LR_chi2": 8.218339926713156,
+      "penalized_LR_p": 0.00414691189019936,
+      "converged": "true"
+    },
+    {
+      "model": "age_sex_bmi_firth",
+      "n": 65,
+      "events": 26,
+      "parameters_including_intercept": 5,
+      "events_per_nonintercept_parameter": 6.5,
+      "term": "signature_per_1SD",
+      "beta_firth": 0.6133926668249413,
+      "OR_firth": 1.8466859731761143,
+      "profile_CI_low": 1.0830315306537852,
+      "profile_CI_high": 3.3465086605960264,
+      "penalized_LR_chi2": 7.784561723552514,
+      "penalized_LR_p": 0.005269457255406756,
+      "converged": "true"
+    },
+    {
+      "model": "age_sex_bmi_logdepth_firth",
+      "n": 65,
+      "events": 26,
+      "parameters_including_intercept": 6,
+      "events_per_nonintercept_parameter": 5.2,
+      "term": "signature_per_1SD",
+      "beta_firth": 0.6033599497434664,
+      "OR_firth": 1.8282513247038878,
+      "profile_CI_low": 1.0762509636008328,
+      "profile_CI_high": 3.3032265155209477,
+      "penalized_LR_chi2": 7.688584523381522,
+      "penalized_LR_p": 0.0055571194900578,
+      "converged": "true"
+    }
+  ],
+  "paired_rho": {
+    "estimate": 0.10168723243515486,
+    "CI": [
+      -0.16458472537590932,
+      0.36812471287573684
+    ]
+  },
+  "data_limits": {
+    "independent_AP_ARDS_replication": "not identified in audited public cohorts",
+    "individual_sampling_to_ARDS_interval": "unavailable",
+    "negative_sequencing_controls": "unavailable for PRJNA893348 and PRJNA428535",
+    "clinical_covariates_beyond_age_sex_BMI": "unavailable"
+  },
+  "interpretive_status": "single-cohort association with separately labelled hypothesis-generating support",
+  "input_hashes": {
+    "PRJNA893348_genus_counts": "a0e3ed352167ac9cbaed7547e40381fc3b0c962393f6b7375d40670ff9fe5652",
+    "subject_sample_run_map": "b12d38d9031338d78312fb610b48309e3592bb14d98486b8c040962506a695cd",
+    "PRJNA428535_genus_counts": "3defab24bcaf4c925ec16992ffed5a4aa0366f0609eb89f6227179d2792ef914",
+    "host_module_results": "36d5971d63a02f4c152aee26bc273441d62473c8401948e6ed846fe3515b169a"
+  },
+  "source_run_manifest_protocol_commit": "not-applicable-public-reproduction"
+}

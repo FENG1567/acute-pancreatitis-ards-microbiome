@@ -1,0 +1,6 @@
+software	version	scope
+python	Python 3.12.3	system read-only runtime
+R	"R version 4.6.1 (2026-06-24) -- ""Happy Hop"""	system read-only runtime
+git	git version 2.43.0	system read-only runtime
+DADA2	1.38.0	inherited Stage 0 processing
+RDP training set	18; sha256=f0994b87030a8d52764ea60f10aba008ae6ef9a5b129ef447f2885bdcdca8e89	inherited Stage 0 taxonomy

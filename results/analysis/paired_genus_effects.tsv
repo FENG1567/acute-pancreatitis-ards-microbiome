@@ -1,0 +1,6 @@
+genus	n_pairs	blood_detected_n	neutrophil_detected_n	both_detected_n	both_absent_n	mean_neutrophil_minus_blood_CLR	paired_bootstrap_CI_low	paired_bootstrap_CI_high	two_sided_signflip_p	interpretation
+Borreliella	62	0	0	0	62	-0.49810309817758047	-0.578804179387483	-0.4165108644939901	9.999000099990002e-05	denominator-induced CLR shift; taxon absent in both compartments
+Escherichia	62	62	62	62	0	1.5472957595320045	1.1948537350732076	1.8791981111862452	9.999000099990002e-05	relative-abundance component; not absolute load
+Staphylococcus	62	22	34	15	21	0.8763113776171924	0.07150177383534286	1.6438637396760645	0.0326967303269673	relative-abundance component; not absolute load
+Enterococcus	62	4	24	2	36	1.343097616598644	0.7099559586865046	1.99291375038266	0.00039996000399960006	relative-abundance component; not absolute load
+Klebsiella	62	4	18	2	42	0.72071009742024	0.13115124956141122	1.334616352083601	0.0245975402459754	relative-abundance component; not absolute load

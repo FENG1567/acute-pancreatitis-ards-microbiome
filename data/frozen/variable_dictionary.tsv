@@ -1,0 +1,7 @@
+variable	role	definition	missing_rule
+ARDS	only primary outcome	public 0/1 label among AP patients	exclude only if label unresolved
+signature_score_sd	only primary exposure	locked five-genus CLR mean standardized in frozen AP set	none after structural-zero rule
+age	supportive covariate	years	complete-case only
+sex	supportive covariate	female/male public label	complete-case only
+bmi	supportive covariate	kg/m2	complete-case only
+genus_assigned_depth	blind QC/sensitivity	sum of all genus counts	not applicable

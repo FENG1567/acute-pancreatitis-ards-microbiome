@@ -1,0 +1,9 @@
+dataset	public_runs	patient_mapping	public_outcome_label	independent_AP_ARDS_replication_eligible	reason
+PRJNA893348	85	65 AP patients plus 19 independent healthy controls; one duplicated control run	Direct AP-ARDS/nonARDS label (26/39)	No (this is the primary outcome cohort)	Only cohort with a direct public ARDS label; cannot serve as its own independent replication
+PRJNA936670	31	Sample aliases H1-Hn; no patient-level clinical table in ENA	AP severity is mentioned at study level, but no direct sample-level ARDS field	No	Study description concerns AP severity and Ang-(1-7); public run/sample records do not expose ARDS
+PRJNA1079194	85	Human AP/healthy aliases and mouse-transfer samples are separable	AP versus healthy and mouse-transfer context; no ARDS label	No	Does not provide an independent patient-level ARDS endpoint
+PRJNA1144689	64	AP/healthy status is now visible for most runs; additional later runs have incomplete labels	AP versus healthy only; no ARDS label	No	Can support AP/healthy microbiome context, not ARDS replication
+PRJNA905234	119	83 patient IDs; 30 have at least two anatomical sites	No public severity or clinical outcome mapping	No	Cross-compartment fungal description only
+PRJNA1121605	28	28 unique repository aliases, SEP 14/NOS 14	Repository sepsis/non-sepsis labels; publication reports OF/non-OF without a public sample crosswalk	No	Cannot relabel SEP/NOS as ARDS or organ failure without a patient crosswalk
+PRJNA721928	101	39 patient sequencing subset plus 8 donors	FMT/NS and visit ordinal only; no patient-level ARDS label	No	Intervention/longitudinal sensitivity only
+PRJNA800481	469	Article outcome table cannot be linked to raw aliases; overlaps PRJNA721928	Published aggregate mortality/IPN context; no valid raw patient crosswalk	No	Raw patient-level outcome reanalysis is not defensible

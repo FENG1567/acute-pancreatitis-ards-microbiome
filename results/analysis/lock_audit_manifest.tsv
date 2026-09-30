@@ -1,0 +1,5 @@
+artifact	path	sha256_or_commit	timestamp	audit_meaning
+public primary reproduction manifest	results/analysis/primary_reproduction_manifest.json	111f5cd45ea9be2d26cb3378609fd53af15e907870fcaa6eb682ac79394380d6	generated during public reproduction	binds the public primary script and analysis-ready inputs
+frozen protocol	data/frozen/FROZEN_ANALYSIS_PROTOCOL.md	1857c433d6d64439cb396f14b5409859cba02172c72441abdadbd2339ebd83fa	2026-09-29T00:52:46+08:00	hash appears in protocol_lock_manifest.tsv
+source signature	data/frozen/stage0_locked_signature.tsv	0a10ecee753b8c31f00b216d2f457c6795abf5c09abee75714f665f09974b0af	recorded in the frozen protocol bundle	complete candidate table, not just the five selected genera
+primary result	results/analysis/primary_test.json	9113b617627f1135af25517c2bfdd7d56fc7946a2b2ef122fcd34cad7a538111	generated during public reproduction	recomputed from the locked public inputs

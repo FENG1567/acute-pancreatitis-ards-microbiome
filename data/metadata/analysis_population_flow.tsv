@@ -1,0 +1,5 @@
+step	n	note
+public_runs	85	all PRJNA893348 runs
+unique_patients	84	J17 two technical runs combined before DADA2
+healthy_controls_excluded	19	not part of primary endpoint
+AP_patients_QC_pass	65	26 ARDS and 39 nonARDS; all pass blind depth QC

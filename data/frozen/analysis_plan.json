@@ -1,0 +1,22 @@
+{
+  "primary_population": "65 unique AP patients; healthy controls excluded",
+  "outcome": "ARDS (26) versus nonARDS (39)",
+  "statistical_unit": "patient",
+  "primary_statistic": "mean standardized signature score in ARDS minus nonARDS",
+  "primary_test": "one-sided patient-label permutation, alternative greater",
+  "permutations": 10000,
+  "p_threshold": 0.05,
+  "master_seed": 20260929,
+  "effect_interval": "10000 stratified patient bootstrap percentile 95% CI for mean difference",
+  "descriptive_auc": "empirical AUROC with 10000 stratified bootstrap percentile 95% CI; not a gate",
+  "adjustment": "supportive logistic regression with age, sex, BMI only; complete case",
+  "critical_sensitivities": [
+    "leave-one-patient-out",
+    "log sequencing-depth adjustment",
+    "exclude blind bottom 5 percent depth",
+    "pseudocount 1.0",
+    "leave-one-genus-out",
+    "strict skin-contaminant sensitivity omitting Staphylococcus without reweighting"
+  ],
+  "multiplicity": "single confirmatory test; sensitivities diagnostic; genus-level exploratory results BH-FDR"
+}

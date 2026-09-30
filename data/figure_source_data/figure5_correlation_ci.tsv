@@ -1,0 +1,2 @@
+analysis	n_pairs	spearman_rho	patient_bootstrap_CI_low	patient_bootstrap_CI_high	interpretation
+primary_relative_score_blood_vs_neutrophil	62	0.101687232435155	-0.164584725375909	0.368124712875737	no evidence of rank concordance; interval quantifies uncertainty

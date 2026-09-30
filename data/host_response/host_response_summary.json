@@ -1,0 +1,71 @@
+{
+  "dataset": "GSE194331/PRJNA800337",
+  "matrix_shape": [
+    58735,
+    119
+  ],
+  "groups": {
+    "Healthy control": 32,
+    "Mild AP": 57,
+    "Moderately-severe AP": 20,
+    "Severe AP": 10
+  },
+  "AP_n": 87,
+  "filter": "count>=10 in at least 3 samples",
+  "genes_retained": 17805,
+  "normalization": "DESeq2-style poscounts median-of-ratios; log2(normalized count+0.5)",
+  "sensitivity_normalization": "upper quartile; log2(normalized count+0.5)",
+  "modules_predeclared_before_expression_results": true,
+  "results": [
+    {
+      "module": "neutrophil_degranulation",
+      "n_AP": 87,
+      "spearman_rho": 0.41724715858784195,
+      "one_sided_permutation_p": 9.999000099990002e-05,
+      "severe_minus_mild": 0.7427857005582794,
+      "bootstrap_CI_low": 0.24329138625499272,
+      "bootstrap_CI_high": 1.276097591515445,
+      "upper_quartile_rho": 0.39467566080207583,
+      "upper_quartile_p": 0.00029997000299970003,
+      "BH_FDR": 0.00019998000199980003
+    },
+    {
+      "module": "innate_NFkB_inflammation",
+      "n_AP": 87,
+      "spearman_rho": 0.35653199988045636,
+      "one_sided_permutation_p": 0.00039996000399960006,
+      "severe_minus_mild": 0.7276092316489655,
+      "bootstrap_CI_low": 0.29750307476688587,
+      "bootstrap_CI_high": 1.1622702248503622,
+      "upper_quartile_rho": 0.34167604773203625,
+      "upper_quartile_p": 0.0011998800119988001,
+      "BH_FDR": 0.0005332800053328001
+    },
+    {
+      "module": "NETosis_oxidative_burst",
+      "n_AP": 87,
+      "spearman_rho": 0.4334704226213615,
+      "one_sided_permutation_p": 9.999000099990002e-05,
+      "severe_minus_mild": 0.7065345654284133,
+      "bootstrap_CI_low": 0.3860876032479286,
+      "bootstrap_CI_high": 1.0371461881927326,
+      "upper_quartile_rho": 0.41433890791159905,
+      "upper_quartile_p": 0.00019998000199980003,
+      "BH_FDR": 0.00019998000199980003
+    },
+    {
+      "module": "endothelial_barrier_injury",
+      "n_AP": 87,
+      "spearman_rho": 0.3107813101377687,
+      "one_sided_permutation_p": 0.0018998100189981002,
+      "severe_minus_mild": 0.28111579198837705,
+      "bootstrap_CI_low": 0.062285946251126455,
+      "bootstrap_CI_high": 0.4930071569602876,
+      "upper_quartile_rho": 0.2823173492281222,
+      "upper_quartile_p": 0.0040995900409959,
+      "BH_FDR": 0.0018998100189981002
+    }
+  ],
+  "role": "independent host-response pathway support; not patient-level multi-omics",
+  "review": "author-reviewed"
+}

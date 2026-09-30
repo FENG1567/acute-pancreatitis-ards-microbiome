@@ -1,0 +1,38 @@
+{
+  "n": 65,
+  "ARDS": 26,
+  "nonARDS": 39,
+  "observed_mean_difference_SD": 0.594743654014341,
+  "bootstrap_95CI": [
+    0.11441789386335502,
+    1.0653136209549645
+  ],
+  "median_difference_SD": 0.5068774576445086,
+  "cliffs_delta": 0.3510848126232742,
+  "one_sided_permutation_p": 0.009299070092990702,
+  "permutations": 10000,
+  "monte_carlo_SE": 0.0009597747767457879,
+  "minimum_attainable_p": 9.999000099990002e-05,
+  "AUROC_descriptive": 0.6755424063116371,
+  "AUROC_bootstrap_95CI": [
+    0.5355029585798816,
+    0.8037475345167653
+  ],
+  "leave_one_patient_out": {
+    "effect_min": 0.5026030535378792,
+    "effect_max": 0.6821658602012463,
+    "p_min": 0.0027997200279972004,
+    "p_max": 0.0197980201979802,
+    "all_direction_positive": true,
+    "all_p_lt_0.05": true
+  },
+  "strict_contamination_sensitivity": {
+    "analysis": "leave_out_Staphylococcus_fixed_weight",
+    "n": 65,
+    "effect": 0.5576299674076062,
+    "p": 0.012998700129987,
+    "critical": "true"
+  },
+  "individual_timing": "unavailable; cohort-level early pre-ARDS timing only",
+  "source_lock_sha256": "0a10ecee753b8c31f00b216d2f457c6795abf5c09abee75714f665f09974b0af"
+}

@@ -1,0 +1,6 @@
+genus	n_pairs	blood_detected	neutrophil_detected	both_detected	both_absent	agreement_fraction
+Borreliella	62	0	0	0	62	1.0
+Escherichia	62	62	62	62	0	1.0
+Staphylococcus	62	22	34	15	21	0.5806451612903226
+Enterococcus	62	4	24	2	36	0.6129032258064516
+Klebsiella	62	4	18	2	42	0.7096774193548387

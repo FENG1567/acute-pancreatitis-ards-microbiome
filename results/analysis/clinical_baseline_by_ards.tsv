@@ -1,0 +1,6 @@
+variable	unit_or_level	ARDS_summary	nonARDS_summary	standardized_mean_difference	missing_ards	missing_nonards	role
+Age	years	48.69 (13.99); median 45.50 [40.25, 58.25]	44.15 (15.02); median 40.00 [32.50, 55.50]	0.31044306165479374	0	0	baseline/technical descriptor; not outcome-driven selection
+BMI	kg/m2	26.47 (3.89); median 26.27 [23.86, 28.42]	26.19 (3.64); median 25.88 [23.83, 27.91]	0.07522270212903341	0	0	baseline/technical descriptor; not outcome-driven selection
+Genus-assigned sequencing depth	reads	24332.88 (11855.33); median 23463.00 [17170.00, 31660.75]	24342.23 (9150.19); median 23689.00 [19970.50, 29363.50]	-0.0009066045863478366	0	0	baseline/technical descriptor; not outcome-driven selection
+Male sex	n (%)	17 (65.4%)	17 (43.6%)	0.4413390234643187	0	0	baseline descriptor and prespecified supportive covariate
+Cohort/platform/batch	single level	PUMC / Illumina MiSeq / single public cohort	PUMC / Illumina MiSeq / single public cohort	0.0	0	0	no between-center or recorded batch variability available for adjustment

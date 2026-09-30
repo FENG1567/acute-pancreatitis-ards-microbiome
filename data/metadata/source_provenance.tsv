@@ -1,0 +1,5 @@
+field	source	confidence	review
+patient/sample/run identity	data/metadata/stage08_patient_sample_ledger.tsv	direct_public_label	author-verified mapping
+ARDS/age/sex/BMI	data/metadata/subject_sample_run_map.tsv	reconciled public metadata	author-verified mapping
+sampling window	data/metadata/subject_sample_run_map.tsv	cohort-level, not patient-specific	author-verified public record
+five-genus signature	data/frozen/stage0_locked_signature.tsv	checksum locked before external outcome analysis	hash-verified frozen artifact

@@ -1,0 +1,228 @@
+genus	representative_taxid	ncbi_domain	ncbi_representative_name	matched_codetection_patients	matched_patient_ids	blood_detected_patients	peri_detected_patients	median_blood_relative_abundance	median_peri_relative_abundance	kitome_flag	sensitivity_signature_member	primary_signature_member
+Borreliella	139	Bacteria	Borreliella burgdorferi	6	case_6;case_15;case_19;case_22;case_23;case_25	6	14	0.0	0.0020489202371670504	False	True	True
+Escherichia	562	Bacteria	Escherichia coli	5	case_11;case_12;case_14;case_25;case_26	7	10	0.0	0.0004944323430986834	False	True	True
+Staphylococcus	1282	Bacteria	Staphylococcus epidermidis	4	case_8;case_19;case_25;case_26	7	8	0.0	0.0	False	True	True
+Enterococcus	1352	Bacteria	Enterococcus faecium	3	case_6;case_7;case_19	3	11	0.0	0.0030697811099242873	False	True	True
+Klebsiella	573	Bacteria	Klebsiella pneumoniae	3	case_12;case_13;case_26	4	8	0.0	0.0	False	True	True
+Toxoplasma	5811	Non-bacterial	Toxoplasma gondii	17	case_3;case_6;case_7;case_8;case_10;case_11;case_12;case_13;case_14;case_15;case_16;case_19;case_22;case_23;case_25;case_26;case_38	17	17	0.03790983606557377	0.006823855755894591	False	False	False
+Plasmodium	5855	Non-bacterial	Plasmodium vivax	5	case_13;case_15;case_19;case_25;case_26	8	10	0.0	2.6776562661515605e-05	False	False	False
+Puccinia	27350	Non-bacterial	Puccinia striiformis	5	case_11;case_15;case_22;case_26;case_38	5	14	0.0	0.0014979195561719834	False	False	False
+Ralstonia	3122075	Bacteria	Ralstonia sp. RRA	5	case_8;case_11;case_14;case_23;case_38	15	5	0.26692456479690524	0.0	True	True	False
+Acinetobacter	470	Bacteria	Acinetobacter baumannii	2	case_23;case_38	3	8	0.0	0.0	True	True	False
+Burkholderia	87883	Bacteria	Burkholderia multivorans	2	case_22;case_25	5	2	0.0	0.0	True	True	False
+Pseudomonas	287	Bacteria	Pseudomonas aeruginosa	2	case_23;case_25	4	6	0.0	0.0	True	True	False
+Rhizophagus	588596	Non-bacterial	Rhizophagus irregularis	2	case_6;case_26	5	8	0.0	0.0	False	False	False
+Sphingomonas	2219696	Bacteria	Sphingomonas sp. FARSPH	2	case_23;case_38	11	2	0.00695288240853247	0.0	True	True	False
+Chryseobacterium	2754694	Bacteria	Chryseobacterium manosquense	1	case_23	1	1	0.0	0.0	False	False	False
+Corynebacterium	43770	Bacteria	Corynebacterium striatum	1	case_25	1	1	0.0	0.0	False	False	False
+Enterobacter	550	Bacteria	Enterobacter cloacae	1	case_23	1	6	0.0	0.0	False	False	False
+Goslarvirus	2734109	Non-bacterial	Goslarvirus goslar	1	case_11	1	1	0.0	0.0	False	False	False
+Haemophilus	729	Bacteria	Haemophilus parainfluenzae	1	case_23	2	2	0.0	0.0	False	False	False
+Paraburkholderia	134537	Bacteria	Paraburkholderia fungorum	1	case_23	6	1	0.0	0.0	False	False	False
+Porcisia	2761500	Non-bacterial	Porcisia hertigi	1	case_6	1	6	0.0	0.0	False	False	False
+Segatella	28135	Bacteria	Segatella oris	1	case_23	1	3	0.0	0.0	False	False	False
+Abiotrophia	46125	Bacteria	Abiotrophia defectiva	0		0	0	0.0	0.0	False	False	False
+Acidovorax	80878	Bacteria	Acidovorax temperans	0		4	0	0.0	0.0	False	False	False
+Aeromonas	648	Bacteria	Aeromonas caviae	0		0	1	0.0	0.0	False	False	False
+Aggregatibacter	732	Bacteria	Aggregatibacter aphrophilus	0		0	1	0.0	0.0	False	False	False
+Akkermansia	239935	Bacteria	Akkermansia muciniphila	0		0	1	0.0	0.0	False	False	False
+Alicycliphilus	179636	Bacteria	Alicycliphilus denitrificans	0		1	0	0.0	0.0	False	False	False
+Alistipes	328813	Bacteria	Alistipes onderdonkii	0		0	2	0.0	0.0	False	False	False
+Allobosea	2015316	Bacteria	Allobosea sp. AS-1	0		0	0	0.0	0.0	False	False	False
+Anaerostipes	1229621	Bacteria	Anaerostipes rhamnosivorans	0		0	1	0.0	0.0	False	False	False
+Aquirufa	2516559	Bacteria	Aquirufa antheringensis	0		3	0	0.0	0.0	False	False	False
+Aquitalea	1537400	Bacteria	Aquitalea aquatilis	0		3	0	0.0	0.0	False	False	False
+Aspergillus	1069201	Non-bacterial	Aspergillus luchuensis	0		0	3	0.0	0.0	False	False	False
+Asticcacaulis	78587	Bacteria	Asticcacaulis excentricus	0		3	0	0.0	0.0	False	False	False
+Atlantibacter	565	Bacteria	Atlantibacter hermannii	0		0	1	0.0	0.0	False	False	False
+Babesia	5866	Non-bacterial	Babesia bigemina	0		0	1	0.0	0.0	False	False	False
+Bacillus	1428	Bacteria	Bacillus thuringiensis	0		0	11	0.0	0.00013332552891212872	False	False	False
+Bacteroides	818	Bacteria	Bacteroides thetaiotaomicron	0		0	4	0.0	0.0	False	False	False
+Barnesiella	1965590	Bacteria	Barnesiella sp. An22	0		0	3	0.0	0.0	False	False	False
+Bifidobacterium	216816	Bacteria	Bifidobacterium longum	0		0	1	0.0	0.0	False	False	False
+Bilophila	35833	Bacteria	Bilophila wadsworthia	0		0	1	0.0	0.0	False	False	False
+Blattabacterium	1653831	Bacteria	Blattabacterium cuenoti	0		0	1	0.0	0.0	False	False	False
+Blautia	33035	Bacteria	Blautia producta	0		0	1	0.0	0.0	False	False	False
+Bosea	1871050	Bacteria	Allobosea sp.	0		0	0	0.0	0.0	False	False	False
+Botrytis	40559	Non-bacterial	Botrytis cinerea	0		0	2	0.0	0.0	False	False	False
+Bradyrhizobium	3457316	Bacteria	Bradyrhizobium sp. WCU1	0		3	0	0.0	0.0	True	False	False
+Bremia	4779	Non-bacterial	Bremia lactucae	0		2	4	0.0	0.0	False	False	False
+Buchnera	9	Bacteria	Buchnera aphidicola	0		0	1	0.0	0.0	False	False	False
+Buttiauxella	82977	Bacteria	Buttiauxella agrestis	0		0	1	0.0	0.0	False	False	False
+Butyrivibrio	831	Bacteria	Butyrivibrio fibrisolvens	0		0	1	0.0	0.0	False	False	False
+Caballeronia	1071679	Bacteria	Caballeronia grimmiae	0		3	0	0.0	0.0	False	False	False
+Caldimonas	376175	Bacteria	Caldimonas aquatica	0		1	0	0.0	0.0	False	False	False
+Campylobacter	824	Bacteria	Campylobacter gracilis	0		0	2	0.0	0.0	False	False	False
+Candida	5476	Non-bacterial	Candida albicans	0		0	2	0.0	0.0	False	False	False
+Capnocytophaga	1017	Bacteria	Capnocytophaga gingivalis	0		0	0	0.0	0.0	False	False	False
+Cedecea	158822	Bacteria	Cedecea neteri	0		0	4	0.0	0.0	False	False	False
+Cellulosimicrobium	1710	Bacteria	Cellulosimicrobium cellulans	0		0	3	0.0	0.0	False	False	False
+Cellvibrio	2303332	Bacteria	Cellvibrio sp. KY-GH-1	0		4	0	0.0	0.0	False	False	False
+Chimaeribacter	2060066	Bacteria	Chimaeribacter arupi	0		0	1	0.0	0.0	False	False	False
+Citrobacter	546	Bacteria	Citrobacter freundii	0		0	4	0.0	0.0	False	False	False
+Cloacibacillus	508460	Bacteria	Cloacibacillus evryensis	0		0	1	0.0	0.0	False	False	False
+Clostridioides	1496	Bacteria	Clostridioides difficile	0		0	1	0.0	0.0	False	False	False
+Clostridium	1512	Bacteria	[Clostridium] symbiosum	0		0	3	0.0	0.0	False	False	False
+Colletotrichum	145971	Non-bacterial	Colletotrichum lupini	0		0	1	0.0	0.0	False	False	False
+Comamonas	363952	Bacteria	Comamonas thiooxydans	0		7	0	0.0	0.0	False	False	False
+Coprobacter	1501392	Bacteria	Coprobacter secundus	0		0	1	0.0	0.0	False	False	False
+Cronobacter	28141	Bacteria	Cronobacter sakazakii	0		0	1	0.0	0.0	False	False	False
+Cryptococcus	5207	Non-bacterial	Cryptococcus neoformans	0		0	1	0.0	0.0	False	False	False
+Cupriavidus	119219	Bacteria	Cupriavidus metallidurans	0		3	0	0.0	0.0	False	False	False
+Cutibacterium	1747	Bacteria	Cutibacterium acnes	0		7	1	0.0	0.0	False	False	False
+Cytomegalovirus	3050295	Non-bacterial	Cytomegalovirus humanbeta5	0		4	2	0.0	0.0	False	False	False
+Dechloromonas	3322121	Bacteria	Dechloromonas sp. ARDL1	0		0	0	0.0	0.0	False	False	False
+Deinococcus	980427	Bacteria	Deinococcus wulumuqiensis	0		0	0	0.0	0.0	False	False	False
+Delftia	558537	Bacteria	Delftia lacustris	0		8	0	0.0	0.0	False	False	False
+Dialister	39950	Bacteria	Dialister pneumosintes	0		0	1	0.0	0.0	False	False	False
+Dickeya	204039	Bacteria	Dickeya dianthicola	0		0	1	0.0	0.0	False	False	False
+Dictyostelium	44689	Non-bacterial	Dictyostelium discoideum	0		0	2	0.0	0.0	False	False	False
+Dryocola	3242728	Bacteria	Dryocola sp. LX212	0		0	1	0.0	0.0	False	False	False
+Duffyella	1619313	Bacteria	Duffyella gerundensis	0		0	1	0.0	0.0	False	False	False
+Duncaniella	2518971	Bacteria	Duncaniella dubosii	0		0	2	0.0	0.0	False	False	False
+Duodenibacillus	1852381	Bacteria	Duodenibacillus massiliensis	0		0	1	0.0	0.0	False	False	False
+Edaphobacter	1933044	Bacteria	Edaphobacter flagellatus	0		4	0	0.0	0.0	False	False	False
+Edwardsiella	636	Bacteria	Edwardsiella tarda	0		0	1	0.0	0.0	False	False	False
+Eggerthella	84112	Bacteria	Eggerthella lenta	0		0	1	0.0	0.0	False	False	False
+Eikenella	539	Bacteria	Eikenella corrodens	0		0	2	0.0	0.0	False	False	False
+Ekhidna	2608089	Bacteria	Ekhidna sp.	0		0	1	0.0	0.0	False	False	False
+Elizabethkingia	1117645	Bacteria	Elizabethkingia anophelis	0		0	1	0.0	0.0	False	False	False
+Ensifer	106592	Bacteria	Ensifer adhaerens	0		2	0	0.0	0.0	False	False	False
+Enterocloster	208479	Bacteria	Enterocloster bolteae	0		0	1	0.0	0.0	False	False	False
+Epilithonimonas	2487072	Bacteria	Epilithonimonas vandammei	0		0	0	0.0	0.0	False	False	False
+Erwinia	2485126	Bacteria	Erwinia sp. JUb26	0		0	1	0.0	0.0	False	False	False
+Faecalibacterium	853	Bacteria	Faecalibacterium prausnitzii	0		0	1	0.0	0.0	False	False	False
+Faucicola	34062	Bacteria	Faucicola osloensis	0		5	0	0.0	0.0	False	False	False
+Flagellimonas	2058762	Bacteria	Flagellimonas sp.	0		0	1	0.0	0.0	False	False	False
+Flavobacterium	1751056	Bacteria	Flavobacterium ammonificans	0		7	0	0.0	0.0	False	False	False
+Flavonifractor	292800	Bacteria	Flavonifractor plautii	0		0	1	0.0	0.0	False	False	False
+Fluviibacter	1751046	Bacteria	Fluviibacter phosphoraccumulans	0		3	0	0.0	0.0	False	False	False
+Franconibacter	357240	Bacteria	Franconibacter helveticus	0		0	1	0.0	0.0	False	False	False
+Fusarium	101028	Non-bacterial	Fusarium pseudograminearum	0		1	0	0.0	0.0	False	False	False
+Fusobacterium	850	Bacteria	Fusobacterium mortiferum	0		0	2	0.0	0.0	False	False	False
+Gemella	84135	Bacteria	Gemella sanguinis	0		0	0	0.0	0.0	False	False	False
+Gordonia	84595	Bacteria	Gordonia polyisoprenivorans	0		2	0	0.0	0.0	False	False	False
+Granulicatella	46124	Bacteria	Granulicatella adiacens	0		0	0	0.0	0.0	False	False	False
+Hafnia	569	Bacteria	Hafnia alvei	0		0	1	0.0	0.0	False	False	False
+Hoylesella	76123	Bacteria	Hoylesella enoeca	0		0	2	0.0	0.0	False	False	False
+Hungatella	154046	Bacteria	Hungatella hathewayi	0		0	1	0.0	0.0	False	False	False
+Hydrogenophilus	297	Bacteria	Hydrogenophilus thermoluteolus	0		1	0	0.0	0.0	False	False	False
+Indolivaga	45254	Bacteria	Indolivaga capnocytophagoides	0		0	1	0.0	0.0	False	False	False
+Karelsulcia	336810	Bacteria	Candidatus Karelsulcia muelleri	0		0	1	0.0	0.0	False	False	False
+Kluyvera	61648	Bacteria	Kluyvera intermedia	0		0	2	0.0	0.0	False	False	False
+Kluyveromyces	28985	Non-bacterial	Kluyveromyces lactis	0		0	1	0.0	0.0	False	False	False
+Kocuria	71999	Bacteria	Kocuria palustris	0		0	0	0.0	0.0	False	False	False
+Kosakonia	208223	Bacteria	Kosakonia cowanii	0		0	4	0.0	0.0	False	False	False
+Kwoniella	463800	Non-bacterial	Kwoniella mangrovensis	0		0	2	0.0	0.0	False	False	False
+Lachnoanaerobaculum	2490855	Bacteria	Lachnoanaerobaculum gingivalis	0		0	0	0.0	0.0	False	False	False
+Lacticaseibacillus	1597	Bacteria	Lacticaseibacillus paracasei	0		0	1	0.0	0.0	False	False	False
+Lactococcus	1358	Bacteria	Lactococcus lactis	0		0	1	0.0	0.0	False	False	False
+Leclercia	83655	Bacteria	Leclercia adecarboxylata	0		0	4	0.0	0.0	False	False	False
+Leishmania	5664	Non-bacterial	Leishmania major	0		1	6	0.0	0.0	False	False	False
+Lelliottia	61646	Bacteria	Lelliottia amnigena	0		0	2	0.0	0.0	False	False	False
+Leptotrichia	712357	Bacteria	Leptotrichia sp. oral taxon 212	0		0	0	0.0	0.0	False	False	False
+Ligilactobacillus	228229	Bacteria	Ligilactobacillus saerimneri	0		0	2	0.0	0.0	False	False	False
+Limibacterium	3229863	Bacteria	Limibacterium fermenti	0		0	1	0.0	0.0	False	False	False
+Limnohabitans	509119	Bacteria	Limnohabitans sp. TEGF005	0		3	0	0.0	0.0	False	False	False
+Listeria	1639	Bacteria	Listeria monocytogenes	0		0	1	0.0	0.0	False	False	False
+Lokiarchaeum	2951803	Archaea	Candidatus Lokiarchaeum ossiferum	0		0	1	0.0	0.0	False	False	False
+Lysinibacillus	28031	Bacteria	Lysinibacillus fusiformis	0		0	1	0.0	0.0	False	False	False
+Macellibacteroides	879969	Bacteria	Macellibacteroides fermentans	0		0	1	0.0	0.0	False	False	False
+Malassezia	76775	Non-bacterial	Malassezia restricta	0		1	0	0.0	0.0	False	False	False
+Mangrovibacter	1691903	Bacteria	Mangrovibacter phragmitis	0		0	1	0.0	0.0	False	False	False
+Maridesulfovibrio	2795000	Bacteria	Maridesulfovibrio sp.	0		0	1	0.0	0.0	False	False	False
+Marinifilum	570161	Bacteria	Marinifilum fragile	0		0	1	0.0	0.0	False	False	False
+Massilia	1141883	Bacteria	Massilia putida	0		0	0	0.0	0.0	False	False	False
+Mastadenovirus	3241406	Non-bacterial	Mastadenovirus blackbeardi	0		0	2	0.0	0.0	False	False	False
+Mediterraneibacter	33039	Bacteria	Mediterraneibacter torques	0		0	3	0.0	0.0	False	False	False
+Megasphaera	1852379	Bacteria	Megasphaera coli	0		0	1	0.0	0.0	False	False	False
+Mesorhizobium	2082387	Bacteria	Mesorhizobium sp. Pch-S	0		2	0	0.0	0.0	False	False	False
+Methylobacterium	107400	Bacteria	Methylobacterium fujisawaense	0		3	0	0.0	0.0	True	False	False
+Methylopumilus	1581680	Bacteria	Candidatus Methylopumilus turicensis	0		0	0	0.0	0.0	False	False	False
+Methylorubrum	408	Bacteria	Methylorubrum extorquens	0		3	0	0.0	0.0	False	False	False
+Microbacterium	3465835	Bacteria	Microbacterium sp. ZW3a	0		0	0	0.0	0.0	False	False	False
+Micrococcus	86171	Bacteria	Micrococcus antarcticus	0		0	0	0.0	0.0	False	False	False
+Moraxella	3149046	Bacteria	Moraxella sp. K02	0		1	0	0.0	0.0	False	False	False
+Morganella	582	Bacteria	Morganella morganii	0		0	4	0.0	0.0	False	False	False
+Muribaculum	1796646	Bacteria	Muribaculum intestinale	0		0	3	0.0	0.0	False	False	False
+Mycetohabitans	417203	Bacteria	Mycetohabitans endofungorum	0		1	0	0.0	0.0	False	False	False
+Nakaseomyces	5478	Non-bacterial	Nakaseomyces glabratus	0		0	2	0.0	0.0	False	False	False
+Neisseria	28449	Bacteria	Neisseria subflava	0		0	1	0.0	0.0	False	False	False
+Nocardia	37329	Bacteria	Nocardia farcinica	0		0	0	0.0	0.0	False	False	False
+Nonagvirus	1921120	Non-bacterial	Nonagvirus JenP1	0		0	1	0.0	0.0	False	False	False
+Odoribacter	28118	Bacteria	Odoribacter splanchnicus	0		0	3	0.0	0.0	False	False	False
+Olsenella	133926	Bacteria	Olsenella uli	0		0	1	0.0	0.0	False	False	False
+Ornithobacterium	28251	Bacteria	Ornithobacterium rhinotracheale	0		0	1	0.0	0.0	False	False	False
+Pandoraea	93220	Bacteria	Pandoraea pnomenusa	0		1	0	0.0	0.0	False	False	False
+Pantoea	549	Bacteria	Pantoea agglomerans	0		0	2	0.0	0.0	False	False	False
+Parabacteroides	823	Bacteria	Parabacteroides distasonis	0		0	3	0.0	0.0	False	False	False
+Paracoccus	59779	Bacteria	Paracoccus marcusii	0		0	0	0.0	0.0	False	False	False
+Paramuribaculum	2094151	Bacteria	Paramuribaculum intestinale	0		0	1	0.0	0.0	False	False	False
+Paraprevotella	454154	Bacteria	Paraprevotella clara	0		0	3	0.0	0.0	False	False	False
+Pararobbsia	621374	Bacteria	Pararobbsia alpina	0		3	0	0.0	0.0	False	False	False
+Parvimonas	33033	Bacteria	Parvimonas micra	0		0	1	0.0	0.0	False	False	False
+Pasteurella	747	Bacteria	Pasteurella multocida	0		0	2	0.0	0.0	False	False	False
+Pectobacterium	554	Bacteria	Pectobacterium carotovorum	0		0	1	0.0	0.0	False	False	False
+Petrimonas	1642646	Bacteria	Petrimonas mucosa	0		0	1	0.0	0.0	False	False	False
+Phascolarctobacterium	33025	Bacteria	Phascolarctobacterium faecium	0		0	1	0.0	0.0	False	False	False
+Phocaeicola	821	Bacteria	Phocaeicola vulgatus	0		0	3	0.0	0.0	False	False	False
+Photobacterium	553611	Bacteria	Photobacterium leiognathi	0		0	1	0.0	0.0	False	False	False
+Phreatobacter	1868589	Bacteria	Phreatobacter cathodiphilus	0		3	0	0.0	0.0	False	False	False
+Phyllobacterium	3026079	Bacteria	Phyllobacterium sp. T2-21	0		3	0	0.0	0.0	False	False	False
+Phytobacter	1972431	Bacteria	Phytobacter ursingii	0		0	1	0.0	0.0	False	False	False
+Plesiomonas	703	Bacteria	Plesiomonas shigelloides	0		0	1	0.0	0.0	False	False	False
+Pluralibacter	61647	Bacteria	Pluralibacter gergoviae	0		0	1	0.0	0.0	False	False	False
+Polynucleobacter	2770234	Bacteria	Polynucleobacter sp. Adler-ghost	0		2	0	0.0	0.0	False	False	False
+Porphyromonas	837	Bacteria	Porphyromonas gingivalis	0		0	3	0.0	0.0	False	False	False
+Poseidonibacter	1904463	Bacteria	Poseidonibacter lekithochrous	0		0	0	0.0	0.0	False	False	False
+Prevotella	28137	Bacteria	Prevotella veroralis	0		1	5	0.0	0.0	False	False	False
+Priestia	1404	Bacteria	Priestia megaterium	0		0	1	0.0	0.0	False	False	False
+Prolixibacter	3696771	Bacteria	Prolixibacter sp. DSM 2831	0		0	1	0.0	0.0	False	False	False
+Proteiniphilum	1642647	Bacteria	Proteiniphilum saccharofermentans	0		0	1	0.0	0.0	False	False	False
+Proteus	584	Bacteria	Proteus mirabilis	0		0	3	0.0	0.0	False	False	False
+Pseudescherichia	566	Bacteria	Pseudescherichia vulneris	0		0	1	0.0	0.0	False	False	False
+Pseudocitrobacter	2891570	Bacteria	Pseudocitrobacter corydidari	0		0	2	0.0	0.0	False	False	False
+Pseudoprevotella	2133944	Bacteria	Pseudoprevotella muciniphila	0		0	2	0.0	0.0	False	False	False
+Reyranella	1929291	Bacteria	Reyranella sp.	0		2	0	0.0	0.0	False	False	False
+Rhizobium	2267833	Bacteria	Rhizobium oryzihabitans	0		2	0	0.0	0.0	False	False	False
+Riemerella	34085	Bacteria	Riemerella anatipestifer	0		0	1	0.0	0.0	False	False	False
+Robbsia	28092	Bacteria	Robbsia andropogonis	0		3	0	0.0	0.0	False	False	False
+Rothia	43675	Bacteria	Rothia mucilaginosa	0		0	2	0.0	0.0	False	False	False
+Saccharomyces	1080349	Non-bacterial	Saccharomyces eubayanus	0		0	1	0.0	0.0	False	False	False
+Salmonella	28901	Bacteria	Salmonella enterica	0		1	8	0.0	0.0	False	False	False
+Scandinavium	1851514	Bacteria	Scandinavium goeteborgense	0		0	1	0.0	0.0	False	False	False
+Schaalia	1660	Bacteria	Schaalia odontolytica	0		0	1	0.0	0.0	False	False	False
+Selenomonas	69823	Bacteria	Selenomonas sputigena	0		0	1	0.0	0.0	False	False	False
+Serratia	615	Bacteria	Serratia marcescens	0		0	2	0.0	0.0	False	False	False
+Seuratvirus	1921555	Non-bacterial	Seuratvirus seurat	0		0	1	0.0	0.0	False	False	False
+Shigella	623	Bacteria	Shigella flexneri	0		0	4	0.0	0.0	False	False	False
+Shimwellia	563	Bacteria	Shimwellia blattae	0		0	1	0.0	0.0	False	False	False
+Siccibacter	1505757	Bacteria	Siccibacter colletis	0		0	2	0.0	0.0	False	False	False
+Simplexvirus	3050292	Non-bacterial	Simplexvirus humanalpha1	0		0	0	0.0	0.0	False	False	False
+Sodaliphilus	2606626	Bacteria	Sodaliphilus pleomorphus	0		0	3	0.0	0.0	False	False	False
+Solobacterium	102148	Bacteria	Solobacterium moorei	0		0	0	0.0	0.0	False	False	False
+Sordaria	5147	Non-bacterial	Sordaria macrospora	0		0	1	0.0	0.0	False	False	False
+Stenotrophomonas	487698	Bacteria	Stenotrophomonas pavanii	0		0	3	0.0	0.0	True	False	False
+Streptococcus	1313	Bacteria	Streptococcus pneumoniae	0		1	7	0.0	0.0	False	False	False
+Stutzerimonas	316	Bacteria	Stutzerimonas stutzeri	0		0	1	0.0	0.0	False	False	False
+Superficieibacter	3031919	Bacteria	Superficieibacter sp. HKU1	0		0	1	0.0	0.0	False	False	False
+Sutterella	2494234	Bacteria	Sutterella megalosphaeroides	0		0	1	0.0	0.0	False	False	False
+Symbiopectobacterium	2871826	Bacteria	Symbiopectobacterium purcellii	0		0	1	0.0	0.0	False	False	False
+Talaromyces	121627	Non-bacterial	Talaromyces rugulosus	0		0	1	0.0	0.0	False	False	False
+Tannerella	28112	Bacteria	Tannerella forsythia	0		0	2	0.0	0.0	False	False	False
+Tatumella	82987	Bacteria	Tatumella ptyseos	0		0	1	0.0	0.0	False	False	False
+Terribium	2725666	Bacteria	Terribium terrae	0		6	0	0.0	0.0	False	False	False
+Thalassiosira	35128	Non-bacterial	Thalassiosira pseudonana	0		1	0	0.0	0.0	False	False	False
+Thomasclavelia	1547	Bacteria	Thomasclavelia ramosa	0		0	1	0.0	0.0	False	False	False
+Trabulsiella	379893	Bacteria	Trabulsiella odontotermitis	0		0	1	0.0	0.0	False	False	False
+Trichomonas	5722	Non-bacterial	Trichomonas vaginalis	0		0	1	0.0	0.0	False	False	False
+Trinickia	2571746	Bacteria	Trinickia violacea	0		3	0	0.0	0.0	False	False	False
+Variovorax	34073	Bacteria	Variovorax paradoxus	0		1	0	0.0	0.0	False	False	False
+Veillonella	29466	Bacteria	Veillonella parvula	0		0	2	0.0	0.0	False	False	False
+Vibrio	670	Bacteria	Vibrio parahaemolyticus	0		0	3	0.0	0.0	False	False	False
+Xanthomonas	346	Bacteria	Xanthomonas citri	0		0	1	0.0	0.0	False	False	False
+Xylanibacter	839	Bacteria	Xylanibacter ruminicola	0		0	2	0.0	0.0	False	False	False
+Yersinia	632	Bacteria	Yersinia pestis	0		0	2	0.0	0.0	False	False	False
+Yokenella	158877	Bacteria	Yokenella regensburgei	0		0	2	0.0	0.0	False	False	False
+Zygotorulaspora	42260	Non-bacterial	Zygotorulaspora mrakii	0		0	1	0.0	0.0	False	False	False
+Zymoseptoria	1047171	Non-bacterial	Zymoseptoria tritici	0		0	2	0.0	0.0	False	False	False

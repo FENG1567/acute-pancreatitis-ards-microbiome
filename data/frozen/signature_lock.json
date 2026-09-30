@@ -1,0 +1,43 @@
+{
+  "lock_status": "LOCKED_BEFORE_PRJNA893348_OUTCOME_ANALYSIS",
+  "locked_at": "2026-09-29T00:52:46+08:00",
+  "source_signature_path": "data/frozen/stage0_locked_signature.tsv",
+  "source_signature_sha256": "0a10ecee753b8c31f00b216d2f457c6795abf5c09abee75714f665f09974b0af",
+  "features": [
+    {
+      "locked_genus": "Borreliella",
+      "direction": 1,
+      "input_column": null,
+      "transfer_rule": "structural zero in RDP18 table; insert count 0; no substitute genus"
+    },
+    {
+      "locked_genus": "Escherichia",
+      "direction": 1,
+      "input_column": "Escherichia/Shigella",
+      "transfer_rule": "pre-outcome RDP18 nomenclature crosswalk; compound 16S taxon retained verbatim"
+    },
+    {
+      "locked_genus": "Staphylococcus",
+      "direction": 1,
+      "input_column": "Staphylococcus"
+    },
+    {
+      "locked_genus": "Enterococcus",
+      "direction": 1,
+      "input_column": "Enterococcus"
+    },
+    {
+      "locked_genus": "Klebsiella",
+      "direction": 1,
+      "input_column": "Klebsiella"
+    }
+  ],
+  "input": "unrarefied bacterial genus count matrix after blind technical QC",
+  "zero_rule": "add fixed pseudocount 0.5 to every genus count, including inserted structural-zero Borreliella",
+  "transform": "sample-wise CLR over every genus column after pseudocount",
+  "component_rule": "positive-direction CLR component for each of the five locked genera",
+  "combination": "arithmetic mean of five components with fixed coefficient 0.2 each; no refitting",
+  "standardization": "center and divide aggregate score by sample SD among the 65 frozen AP patients",
+  "score_direction": "higher score prespecified as higher ARDS risk",
+  "missing_rule": "unavailable locked genus is retained as a zero-count feature; no near-neighbour replacement"
+}

@@ -1,0 +1,9 @@
+analysis	role	n	ARDS	nonARDS	effect_SD	bootstrap_CI_low	bootstrap_CI_high	one_sided_permutation_p	note
+primary_five_component_fixed	permutation-seed sensitivity; not primary analysis	65	26	39	0.594743654014341	0.112828138222636	1.06310291330751	0.0087991200879912	Primary P=0.009299 is reported in the main analysis; P=0.008799 is from a separate sensitivity permutation run and is not a replacement for the primary value.
+log_depth_residualized	prespecified sensitivity	65	26	39	0.593498665712302	0.109006755971846	1.06013652614675	0.0103989601039896	Sensitivity value is retained as a separate non-primary result.
+pseudocount_1.0	prespecified sensitivity	65	26	39	0.601103019010793	0.127927163799467	1.07505000683117	0.0097990200979902	Sensitivity value is retained as a separate non-primary result.
+leave_out_Borreliella_fixed_weight	prespecified fixed-weight component sensitivity	65	26	39	0.621217453204133	0.139630316688921	1.09930035234755	0.0053994600539946	Sensitivity value is retained as a separate non-primary result.
+leave_out_Escherichia_fixed_weight	prespecified fixed-weight component sensitivity	65	26	39	0.616596489703286	0.147218158205742	1.09299502734017	0.0058994100589941	Sensitivity value is retained as a separate non-primary result.
+leave_out_Staphylococcus_fixed_weight	prespecified fixed-weight component sensitivity	65	26	39	0.557629967407606	0.0840146546064755	1.03701424502425	0.012998700129987	Sensitivity value is retained as a separate non-primary result.
+leave_out_Enterococcus_fixed_weight	prespecified fixed-weight component sensitivity	65	26	39	0.608591927488181	0.105410908803477	1.10025507361938	0.0082991700829917	Sensitivity value is retained as a separate non-primary result.
+leave_out_Klebsiella_fixed_weight	prespecified fixed-weight component sensitivity	65	26	39	0.324354037778469	-0.168014769878918	0.817550220202164	0.0983901609839016	Sensitivity value is retained as a separate non-primary result.

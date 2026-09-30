@@ -1,0 +1,7 @@
+module_a	module_b	overlap_n	overlap_symbols	jaccard
+neutrophil_degranulation	innate_NFkB_inflammation	0		0.0
+neutrophil_degranulation	NETosis_oxidative_burst	4	CTSG;ELANE;MPO;PRTN3	0.2222222222222222
+neutrophil_degranulation	endothelial_barrier_injury	0		0.0
+innate_NFkB_inflammation	NETosis_oxidative_burst	2	S100A8;S100A9	0.1
+innate_NFkB_inflammation	endothelial_barrier_injury	0		0.0
+NETosis_oxidative_burst	endothelial_barrier_injury	0		0.0
