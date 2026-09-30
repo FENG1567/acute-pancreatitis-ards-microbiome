@@ -3,7 +3,7 @@
 本仓库包含论文的冻结分析方案、分析就绪数据、统计代码、图源数据、最终 PDF 图和自动核验工具。
 
 公开仓库地址为：<https://github.com/FENG1567/acute-pancreatitis-ards-microbiome>。
-论文候选版本标记为 `v1.0.0`，代码采用 MIT License。可直接用于论文的中英文代码可用性说明见
+论文候选版本标记为 `v1.0.1`，代码采用 MIT License。可直接用于论文的中英文代码可用性说明见
 `CODE_AVAILABILITY.md`。
 
 最简复现命令：

@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: "If you use this code or derived data, cite the associated manuscript and the original public datasets."
 title: "Reproducible analysis for cross-compartment microbiome signals and early ARDS in acute pancreatitis"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-09-30
 license: MIT
 repository-code: "https://github.com/FENG1567/acute-pancreatitis-ards-microbiome"
-url: "https://github.com/FENG1567/acute-pancreatitis-ards-microbiome/releases/tag/v1.0.0"
+url: "https://github.com/FENG1567/acute-pancreatitis-ards-microbiome/releases/tag/v1.0.1"
 authors:
   - given-names: Shuo
     family-names: Feng

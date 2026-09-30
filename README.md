@@ -93,7 +93,7 @@ recompute the central patient-level statistics.
 
 Code in this repository is released under the MIT License. The public repository
 is https://github.com/FENG1567/acute-pancreatitis-ards-microbiome, and the
-publication-candidate release is tagged as `v1.0.0`. Public-source and derived
+publication-candidate release is tagged as `v1.0.1`. Public-source and derived
 scientific data remain subject to the terms of their originating repositories
 and publications; see `DATA_USE_NOTICE.md`. A manuscript-ready Code
 Availability statement is provided in `CODE_AVAILABILITY.md`. Archiving the
